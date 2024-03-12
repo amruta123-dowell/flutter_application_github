@@ -188,7 +188,7 @@ class TimeShower extends StatelessWidget {
                 border: Border.all(color: Colors.black)),
             child: Text(
               spittedTime[i],
-              style: TextStyle(height: 0),
+              style: const TextStyle(height: 0),
             ),
           ),
           if (i == 1)
