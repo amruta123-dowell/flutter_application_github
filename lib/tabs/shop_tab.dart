@@ -181,12 +181,15 @@ class TimeShower extends StatelessWidget {
           Container(
             alignment: Alignment.center,
             margin: const EdgeInsets.symmetric(horizontal: 2),
-            height: 20,
+            height: 18,
             width: 17,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(3),
                 border: Border.all(color: Colors.black)),
-            child: Text(spittedTime[i]),
+            child: Text(
+              spittedTime[i],
+              style: TextStyle(height: 0),
+            ),
           ),
           if (i == 1)
             Container(
